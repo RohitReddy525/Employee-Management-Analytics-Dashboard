@@ -1,120 +1,28 @@
-# Employee Management System
+# Employee Management Analytics Dashboard
 
-## 📌 Project Overview
-Employee Management System is a Java-based CRUD application that uses JDBC to connect with a MySQL database.
+This repository contains two projects:
 
-The application allows users to manage employee records through a menu-driven interface.
-
----
-
-## 🚀 Technologies Used
-
+## 1. Employee Management System (Java)
 - Java
 - JDBC
 - MySQL
-- Git
-- GitHub
-- VS Code
+- CRUD Operations
 
----
+## 2. Employee Analytics Dashboard (Python)
+- Python
+- Pandas
+- Streamlit
+- Plotly
+- Employee Analytics
+- Department Statistics
+- Salary Analysis
+- Search and Filter Features
 
-## ✨ Features
-
-### Add Employee
-Insert a new employee record into the database.
-
-### View Employees
-Display all employee records.
-
-### Search Employee
-Search employee details using Employee ID.
-
-### Update Employee
-Modify employee information.
-
-### Delete Employee
-Remove employee records from the database.
-
----
-
-## 🗄️ Database
-
-Database Name:
-
-```sql
-employee_management
-```
-
-Table Name:
-
-```sql
-employees
-```
-
-Columns:
-
-- id
-- name
-- department
-- salary
-- email
-
----
-
-## 📂 Project Structure
-
-```text
-src/
-├── EmployeeManagementSystem.java
-├── AddEmployee.java
-├── ViewEmployee.java
-├── Search.java
-├── UpdateEmployee.java
-├── DeleteEmployee.java
-├── DatabaseConnection.java
-
-lib/
-└── mysql-connector-j-9.7.0.jar
-```
-
----
-
-## ▶️ How to Run
-
-1. Start MySQL Server
-2. Open the project in VS Code
-3. Configure database credentials
-4. Compile and run
-
-```bash
-javac EmployeeManagementSystem.java
-java EmployeeManagementSystem
-```
-
----
-
-## 📸 Sample Operations
-
-- Add Employee
-- View Employee
-- Search Employee
-- Update Employee
-- Delete Employee
-
----
-
-## 👨‍💻 Author
-
-Rohit Bojjam
-
-GitHub:
-https://github.com/RohitReddy525
-
----
-
-## 🎯 Future Enhancements
-
-- Login System
-- GUI using Java Swing
-- Employee Analytics Dashboard using Python
-- Export Reports
+## Technologies Used
+- Java
+- Python
+- MySQL
+- JDBC
+- Pandas
+- Streamlit
+- Plotly
